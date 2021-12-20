@@ -85,8 +85,7 @@
         <label for="email">E-post:</label><br>
         <input type="email" id="email" name="email" required placeholder="minaddress@live.se" /><br><br>
         <label for="message">Meddelande</label><br>
-        <textarea name="message" cols="18" rows="5" id="message" autocomplete="off" required placeholder="Ditt meddelande"></textarea><br><br>
-        <!-- <input type="textarea" id="message" name="message" autocomplete="off" required placeholder="Ditt meddelande" /><br><br> -->
+        <textarea name="message" cols="18" rows="5" id="message" autocomplete="off" required maxlength="500" placeholder="Ditt meddelande"></textarea><br><br>
         <input type="checkbox" id="consent" name="consent" value="Godkännt" required />
         <label for="consent">Jag godkänner att VBI får kontakta mig via E-post</label><br><br>
         <button type="submit" id="submitForm">Skicka</button>
