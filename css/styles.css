@@ -57,3 +57,83 @@ body {
 h2{
   margin-left: 1.3em;
 }
+
+
+
+
+
+
+
+/* test animation */
+
+.wrapper{
+  min-width: 250px;
+  max-width: 60%;
+  margin: 20px auto;
+}
+
+.wrapper h2{
+  text-align: left;
+  font-size: 1.3em;
+}
+.line{
+  height: 25px;
+  min-width: 250px;
+  margin: 0 auto 10px;
+  line-height: 25px;
+  font-size: 14px;
+  color: #fff;
+  padding: 0 0 0 10px;
+  position: relative;
+}
+.line::before{
+  content: '';
+  width: 100%;
+  position: absolute;
+  left: 0;
+  height: 25px;
+  top: 0;
+  z-index: -2;
+  background: #d2d6d7;
+  border-radius: 15px;
+}
+
+.line::after{
+  content: '';
+  background: #333;
+  height: 25px;
+  transition: 0.8s;
+  display: block;
+  width: 100%;
+  animation: animate 1 4s;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  border-radius: 15px;
+}
+.line1::after{
+  max-width: 90%;
+  background: rgb(196, 47, 66);
+}
+.line2::after{
+  max-width: 80%;
+  background: rgb(227, 89, 31);
+}
+.line3::after{
+  max-width: 70%;
+  background: rgb(2, 35, 89);
+}
+.line4::after{
+  max-width: 75%;
+  background: rgb(221, 191, 23);
+}
+
+@keyframes animate {
+  0%{
+    width: 0;
+  }
+  100%{
+    width: 100%;
+  }
+}
