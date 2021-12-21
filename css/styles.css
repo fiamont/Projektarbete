@@ -134,8 +134,9 @@ body {
   background-color: #000000;
   background-position: center center;
   background-size: cover;
-  font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
   
+
 }
 .bild {
   display: flex;
@@ -206,6 +207,7 @@ body {
 
 h2 {
   margin-left: 1.3em;
+  font-size: 2em;
 }
 
 /* test animation */
