@@ -54,28 +54,22 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-h2{
+h2 {
   margin-left: 1.3em;
 }
 
-
-
-
-
-
-
 /* test animation */
 
-.wrapper{
+.wrapper {
   width: 250px;
   margin: 20px auto;
 }
 
-.wrapper h2{
+.wrapper h2 {
   text-align: left;
   font-size: 1.3em;
 }
-.line{
+.line {
   height: 25px;
   min-width: 250px;
   margin: 0 auto 10px;
@@ -85,8 +79,8 @@ h2{
   padding: 0 0 0 10px;
   position: relative;
 }
-.line::before{
-  content: '';
+.line::before {
+  content: "";
   width: 100%;
   position: absolute;
   left: 0;
@@ -97,8 +91,8 @@ h2{
   border-radius: 15px;
 }
 
-.line::after{
-  content: '';
+.line::after {
+  content: "";
   background: #333;
   height: 25px;
   transition: 0.8s;
@@ -111,64 +105,62 @@ h2{
   z-index: -1;
   border-radius: 15px;
 }
-.nicoleLine1::after{
+.nicoleLine1::after {
   max-width: 90%;
   background: rgb(196, 47, 66);
 }
-.nicoleLine2::after{
+.nicoleLine2::after {
   max-width: 80%;
   background: rgb(227, 89, 31);
 }
-.nicoleLine3::after{
+.nicoleLine3::after {
   max-width: 70%;
   background: rgb(2, 35, 89);
 }
-.nicoleLine4::after{
+.nicoleLine4::after {
   max-width: 75%;
   background: rgb(221, 191, 23);
 }
 
-
-.sofiaLine1::after{
+.sofiaLine1::after {
   max-width: 90%;
   background: rgb(196, 47, 66);
 }
-.sofiaLine2::after{
+.sofiaLine2::after {
   max-width: 80%;
   background: rgb(227, 89, 31);
 }
-.sofiaLine3::after{
+.sofiaLine3::after {
   max-width: 70%;
   background: rgb(2, 35, 89);
 }
-.sofiaLine4::after{
+.sofiaLine4::after {
   max-width: 75%;
-  background: rgb(221, 191, 23);
+  background: rgb(8, 142, 151);
 }
 
-
-.kalleLine1::after{
+.kalleLine1::after {
   max-width: 90%;
   background: rgb(196, 47, 66);
 }
-.kalleLine2::after{
+.kalleLine2::after {
   max-width: 80%;
   background: rgb(227, 89, 31);
 }
-.kalleLine3::after{
+.kalleLine3::after {
   max-width: 70%;
   background: rgb(2, 35, 89);
 }
-.kalleLine4::after{
+.kalleLine4::after {
   max-width: 75%;
   background: rgb(221, 191, 23);
 }
 
 @keyframes animate {
-  0%{
+  0% {
     width: 0;
   }
-  100%{
+  100% {
     width: 100%;
   }
 }
