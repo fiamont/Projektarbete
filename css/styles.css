@@ -5,7 +5,7 @@ body {
   background-position: center center;
   background-size: cover;
 }
-#bild1 {
+.bild {
   display: flex;
   justify-content: center;
 }
