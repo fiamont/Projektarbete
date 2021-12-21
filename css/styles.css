@@ -57,12 +57,14 @@ body {
   margin-right: auto;
 }
 .boxPortfolio {
-  padding: 30px 20px;
+  padding: 20px 20px;
   background: #060629de;
-  min-width: 50%;
-  max-width: 60%;
+  width: fit-content;
   margin-left: auto;
   margin-right: auto;
+}
+.boxPortfolio img{
+  width: 250px;
 }
 h2 {
   margin-left: 1.3em;
