@@ -134,6 +134,8 @@ body {
   background-color: #000000;
   background-position: center center;
   background-size: cover;
+  font-family: 'Calibri', 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  
 }
 .bild {
   display: flex;
