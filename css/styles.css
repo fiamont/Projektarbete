@@ -206,8 +206,8 @@ body {
 }
 .flex-container {
   display: flex;
-  flex-direction: column;
   justify-content: center space-between;
+  flex-direction: column;
 }
 
 h2 {
