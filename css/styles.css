@@ -46,7 +46,7 @@ body {
 .VBIinnehåll {
   margin-top: 70px;
 }
-#box {
+.box {
   padding: 30px 20px;
   background: #060629de;
   min-width: 400px;
