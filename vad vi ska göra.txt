@@ -2,7 +2,7 @@
 -lägga till i personsidorna                         -- FIXAT
 -andra bilder i portfolio                           -- FIXAT
 -se över allt (t.ex. kolla namn classer/id)         -- FIXAT
--validering
+-validering                                         -- FIXAT
 -förbereda inför redovisning
 
 
