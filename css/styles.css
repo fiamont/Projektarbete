@@ -187,6 +187,12 @@ body {
   display: flex;
   justify-content: center;
 }
+
+#actionForm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .VBIinnehåll {
   margin-top: 70px;
 }
