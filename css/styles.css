@@ -178,10 +178,9 @@ body {
   margin-top: 30px;
 }
 
-/* #kontakt {
-  color: rgb(53, 181, 255);
-  text-decoration: none;
-} */
+.flex-container{
+  display: flex;
+}
 
 #contactForm {
   display: flex;
@@ -193,6 +192,7 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+
 .VBIinnehåll {
   margin-top: 70px;
 }
