@@ -175,33 +175,27 @@ body {
   padding: 10px;
   margin-top: 30px;
 }
-
 #contactForm {
   display: flex;
   justify-content: center;
   padding: 0.8em;
 }
-
 .actionForm {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-
 #buttonDiv {
   display: flex;
   justify-content: center;
 }
-
 .actionForm input,
 label {
   padding: 0.5em;
 }
-
 .VBIinnehåll {
   margin-top: 70px;
 }
-
 .box {
   display: flex;
   flex-direction: column;
@@ -225,25 +219,21 @@ label {
   justify-content: center space-between;
   flex-direction: column;
 }
-
 h2 {
   text-align: center;
   font-size: 2em;
 }
-
 h3 {
   text-align: center;
   font-size: 1.2em;
 }
 
-/* test animation */
-
+/* Animering på personliga sidor */
 .wrapper {
   width: 250px;
   margin: 20px auto;
   padding: 0.5em;
 }
-
 .wrapper h2 {
   text-align: left;
   font-size: 1.3em;
@@ -269,7 +259,6 @@ h3 {
   background: #d2d6d7;
   border-radius: 15px;
 }
-
 .line::after {
   content: "";
   background: #333;
@@ -300,7 +289,6 @@ h3 {
   max-width: 85%;
   background: rgb(8, 142, 151);
 }
-
 .sofiaLine1::after {
   max-width: 90%;
   background: rgb(196, 47, 66);
@@ -321,7 +309,6 @@ h3 {
   max-width: 75%;
   background: rgb(233, 179, 1);
 }
-
 .kalleLine1::after {
   max-width: 70%;
   background: rgb(196, 47, 66);
@@ -338,7 +325,6 @@ h3 {
   max-width: 75%;
   background: rgb(233, 179, 1);
 }
-
 @keyframes animate {
   0% {
     width: 0;
