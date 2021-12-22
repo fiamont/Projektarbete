@@ -187,11 +187,21 @@ body {
   justify-content: center;
 }
 
-#actionForm{
+.actionForm{
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
+#buttonDiv{
+  display: flex;
+  justify-content: center;
+}
+
+.actionForm label, input{
+  padding: 10px;
+}
+
 
 .VBIinnehåll {
   margin-top: 70px;
@@ -202,7 +212,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* flex-wrap: nowrap; */
   padding: 20px;
   background: #060629de;
   width: fit-content;
@@ -293,8 +302,8 @@ h3{
   background: rgb(2, 35, 89);
 }
 .nicoleLine4::after {
-  max-width: 75%;
-  background: rgb(221, 191, 23);
+  max-width: 85%;
+  background: rgb(8, 142, 151);
 }
 
 .sofiaLine1::after {
