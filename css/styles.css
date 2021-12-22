@@ -193,6 +193,11 @@ body {
   justify-content: center;
 }
 
+#buttonDiv{
+  display: flex;
+  justify-content: center;
+}
+
 .VBIinnehåll {
   margin-top: 70px;
 }
