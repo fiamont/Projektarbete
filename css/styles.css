@@ -198,6 +198,11 @@ body {
   justify-content: center;
 }
 
+.actionForm label, input{
+  padding: 10px;
+}
+
+
 .VBIinnehåll {
   margin-top: 70px;
 }
