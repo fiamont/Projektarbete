@@ -323,15 +323,15 @@ h3 {
 }
 
 .kalleLine1::after {
-  max-width: 90%;
+  max-width: 70%;
   background: rgb(196, 47, 66);
 }
 .kalleLine2::after {
-  max-width: 80%;
+  max-width: 90%;
   background: rgb(227, 89, 31);
 }
 .kalleLine3::after {
-  max-width: 70%;
+  max-width: 50%;
   background: rgb(2, 35, 89);
 }
 .kalleLine4::after {
