@@ -127,7 +127,6 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-
 body {
   color: antiquewhite;
   background-image: url(../images/mörk.jpg);
@@ -193,7 +192,7 @@ body {
 label {
   padding: 0.5em;
 }
-.VBIinnehåll {
+#VBIinnehåll {
   margin-top: 70px;
 }
 .box {
