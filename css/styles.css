@@ -336,7 +336,7 @@ h3 {
 }
 .kalleLine4::after {
   max-width: 75%;
-  background: rgb(221, 191, 23);
+  background: rgb(233, 179, 1);
 }
 
 @keyframes animate {
