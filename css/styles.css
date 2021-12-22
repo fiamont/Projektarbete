@@ -211,7 +211,7 @@ label {
 }
 .flex-container {
   display: flex;
-  justify-content: center space-between;
+  justify-content: center;
   flex-direction: column;
 }
 h2 {
