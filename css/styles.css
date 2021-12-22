@@ -178,10 +178,6 @@ body {
   margin-top: 30px;
 }
 
-.flex-container{
-  display: flex;
-}
-
 #contactForm {
   display: flex;
   justify-content: center;
