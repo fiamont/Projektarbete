@@ -178,10 +178,10 @@ body {
   margin-top: 30px;
 }
 
-#kontakt {
+/* #kontakt {
   color: rgb(53, 181, 255);
   text-decoration: none;
-}
+} */
 
 #contactForm {
   display: flex;
@@ -219,6 +219,11 @@ body {
 h2 {
   text-align: center;
   font-size: 2em;
+}
+
+h3{
+  text-align: center;
+  font-size: 1.2em;
 }
 
 /* test animation */
