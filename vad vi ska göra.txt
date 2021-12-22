@@ -1,6 +1,6 @@
--fixa så "fyll i formuläret..." ligger nedanför -- FIXAT
+-fixa så "fyll i formuläret..." ligger nedanför     -- FIXAT
 -lägga till i personsidorna
--andra bilder i portfolio
+-andra bilder i portfolio                           -- FIXAT
 -se över allt (t.ex. kolla namn classer/id)
 -validering
 -förbereda inför redovisning
