@@ -1,4 +1,4 @@
--fixa så "fyll i formuläret..." ligger nedanför
+-fixa så "fyll i formuläret..." ligger nedanför -- FIXAT
 -lägga till i personsidorna
 -andra bilder i portfolio
 -se över allt (t.ex. kolla namn classer/id)
