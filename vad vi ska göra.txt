@@ -5,5 +5,3 @@
 -validering                                         -- FIXAT
 -förbereda inför redovisning
 -skulle kunna lägga till länkar för validering och vilken standard vi följt för att göra det lättare för granskningsgruppen
-
-
